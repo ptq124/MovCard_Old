@@ -5,12 +5,17 @@ import Button from '../components/common/Button'
 import CopiedLink from '../components/common/CopiedLink'
 import Music from '../components/common/Music'
 import background from '../assets/Frame67.png'
+import { useNavigate } from 'react-router-dom'
 export default function Start() {
   useEffect(() => {
     const root = document.getElementById('root')
     root.style.background = `url(${background})`
     root.style.backgroundSize = 'cover'
   }, [])
+  const navigate = useNavigate()
+  const nextPage = () => {
+    navigate('/select')
+  }
   return (
     <div className='w-4/5'>
       <div className='h-1/6 flex items-end justify-end relative left-20'>
@@ -39,6 +44,7 @@ export default function Start() {
             'Btn-Poppins-M-30 bg-white text-black rounded-[48px] w-56 h-20 mt-10 py-5 px-20'
           }
           content={'Start'}
+          onClick={nextPage}
         ></Button>
       </div>
     </div>
