@@ -21,3 +21,15 @@ body {
   color: #ffffff;
   background-size: cover;
 }
+
+.card {
+  background: linear-gradient(
+    168.54deg,
+    #f4f3f2 -0.08%,
+    #f5fbff 58.75%,
+    #ffffff 91.57%
+  );
+  mix-blend-mode: normal;
+  border: 1px solid #ffffff;
+  border-radius: 15px;
+}
