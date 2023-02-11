@@ -4,7 +4,7 @@ import '../assets/text-style.css'
 import Button from '../components/common/Button'
 import CopiedLink from '../components/common/CopiedLink'
 import Music from '../components/common/Music'
-import background from '../assets/Frame67.png'
+import background from '../assets/Frame67.svg'
 import { useNavigate } from 'react-router-dom'
 export default function Start() {
   useEffect(() => {
