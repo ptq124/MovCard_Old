@@ -32,4 +32,5 @@ body {
   mix-blend-mode: normal;
   border: 1px solid #ffffff;
   border-radius: 15px;
+  box-shadow: 4px 10px 26px 4px rgba(195, 208, 255, 0.35);
 }
