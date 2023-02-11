@@ -3,6 +3,9 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
+      colors: {
+        backspace: 'rgba(255, 255, 255, 0.15)',
+      },
       animation: {
         twinkle: 'twinkle 4s infinite',
         twinkle2: 'twinkle2 4s infinite',
