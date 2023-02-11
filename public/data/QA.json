@@ -1,0 +1,34 @@
+[
+  {
+    "title": "앤틱",
+    "display": "true"
+  },
+  {
+    "title": "현대",
+    "display": "true"
+  },
+  {
+    "title": "밝은",
+    "display": "false"
+  },
+  {
+    "title": "어둡",
+    "display": "false"
+  },
+  {
+    "title": "개인",
+    "display": "false"
+  },
+  {
+    "title": "다수",
+    "display": "false"
+  },
+  {
+    "title": "잔잔",
+    "display": "false"
+  },
+  {
+    "title": "빠른",
+    "display": "false"
+  }
+]
