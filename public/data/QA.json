@@ -1,34 +1,50 @@
 [
   {
     "title": "앤틱",
-    "display": "true"
+    "stage": 0,
+    "id": 0,
+    "display": true
   },
   {
     "title": "현대",
-    "display": "true"
+    "stage": 0,
+    "id": 1,
+    "display": true
   },
   {
     "title": "밝은",
-    "display": "false"
+    "stage": 1,
+    "id": 2,
+    "display": false
   },
   {
     "title": "어둡",
-    "display": "false"
+    "stage": 1,
+    "id": 3,
+    "display": false
   },
   {
     "title": "개인",
-    "display": "false"
+    "stage": 2,
+    "id": 4,
+    "display": false
   },
   {
     "title": "다수",
-    "display": "false"
+    "stage": 2,
+    "id": 5,
+    "display": false
   },
   {
     "title": "잔잔",
-    "display": "false"
+    "stage": 3,
+    "id": 6,
+    "display": false
   },
   {
     "title": "빠른",
-    "display": "false"
+    "stage": 3,
+    "id": 7,
+    "display": false
   }
 ]
