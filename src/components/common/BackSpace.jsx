@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../assets/text-style.css'
 import { ReactComponent as BackSpaceIcon } from '../../assets/keyboard_backspace.svg'
-export default function BackSpace() {
+export default function BackSpace({ backQa }) {
   return (
     <button
       className='
@@ -11,6 +11,7 @@ export default function BackSpace() {
         flex justify-center items-center gap-2.5 
         rounded-[47px] border border-solid border-[#ffffff] 
         hover:bg-backspace'
+      onClick={backQa}
     >
       <BackSpaceIcon />
       Back
