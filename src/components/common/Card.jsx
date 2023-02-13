@@ -13,7 +13,7 @@ export default function Card({ info, changeQa }) {
     setTimeout(() => {
       card.style.transform = `scale(1)`
       changeQa(stage, title)
-    }, 1100)
+    }, 900)
   }
   return (
     <>
