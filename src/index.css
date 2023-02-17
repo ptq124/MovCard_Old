@@ -20,17 +20,43 @@ body {
   width: 100vw;
   color: #ffffff;
   background-size: cover;
+  overflow: hidden;
 }
 
 .card {
-  background: linear-gradient(
-    168.54deg,
-    #f4f3f2 -0.08%,
-    #f5fbff 58.75%,
-    #ffffff 91.57%
+  border: 1px solid;
+
+  border-image-source: linear-gradient(
+    155.93deg,
+    rgba(181, 94, 195, 0.96) 0.77%,
+    rgba(239, 241, 254, 0.58) 58%,
+    #e3e6fb 101.02%
   );
+
+  box-sizing: border-box;
+  /* card bg color_2 */
+
+  background: linear-gradient(
+      322.85deg,
+      rgba(239, 217, 253, 0.2) 2.99%,
+      rgba(230, 189, 255, 0.07) 16.13%,
+      rgba(255, 255, 255, 0) 29.91%
+    ),
+    linear-gradient(
+      337.18deg,
+      rgba(255, 255, 255, 0.35) -16.5%,
+      rgba(255, 255, 255, 0.35) -13.9%,
+      rgba(135, 129, 206, 0.162789) 100.03%,
+      rgba(123, 116, 201, 0.1435) 105.56%
+    );
+  background-blend-mode: normal, screen;
   mix-blend-mode: normal;
-  border: 1px solid #ffffff;
+  /* card effect */
+
+  box-shadow: 0px 42px 71px 4px rgba(140, 163, 242, 0.3),
+    inset 2px -11px 17px rgba(184, 167, 251, 0.28);
+  backdrop-filter: blur(22px);
+  /* Note: backdrop-filter has minimal browser support */
+
   border-radius: 15px;
-  box-shadow: 4px 10px 26px 4px rgba(195, 208, 255, 0.35);
 }
