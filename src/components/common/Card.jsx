@@ -21,7 +21,7 @@ export default function Card({ info, changeQa }) {
     <>
       <div className={css} onClick={handler}>
         <ExCard className='mx-auto mb-10'></ExCard>
-        <p className='Pretendard-M-23 text-center p-2.5 mb-10'>{title}</p>
+        <p className='Pretendard-M-23 text-center p-2.5 mb-10 '>{title}</p>
       </div>
     </>
   )
