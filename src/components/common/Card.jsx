@@ -2,7 +2,7 @@ import React from 'react'
 import { ReactComponent as ExCard } from '../../assets/excard.svg'
 import '../../assets/text-style.css'
 export default function Card({ info, changeQa }) {
-  const { title, display, stage, id } = info
+  const { title, display, stage } = info
   const style =
     'card w-72 h-[25.625rem] flex flex-col justify-evenly hover:-translate-y-8 transition delay-75 duration-300 ease-in-out '
   let css = display ? style : style + 'hidden'
