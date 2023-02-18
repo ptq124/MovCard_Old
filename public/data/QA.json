@@ -3,48 +3,56 @@
     "title": "앤틱",
     "stage": 0,
     "id": 0,
-    "display": true
+    "display": true,
+    "qa": "Q1"
   },
   {
     "title": "현대",
     "stage": 0,
     "id": 1,
-    "display": true
+    "display": true,
+    "qa": "Q1"
   },
   {
     "title": "밝은",
     "stage": 1,
     "id": 2,
-    "display": false
+    "display": false,
+    "qa": "Q2"
   },
   {
     "title": "어둡",
     "stage": 1,
     "id": 3,
-    "display": false
+    "display": false,
+    "qa": "Q2"
   },
   {
     "title": "개인",
     "stage": 2,
     "id": 4,
-    "display": false
+    "display": false,
+    "qa": "Q3"
   },
   {
     "title": "다수",
     "stage": 2,
     "id": 5,
-    "display": false
+    "display": false,
+    "qa": "Q3"
   },
   {
     "title": "잔잔",
     "stage": 3,
     "id": 6,
-    "display": false
+    "display": false,
+    "qa": "Q4"
   },
   {
     "title": "빠른",
     "stage": 3,
     "id": 7,
-    "display": false
+    "display": false,
+    "qa": "Q4"
   }
 ]
