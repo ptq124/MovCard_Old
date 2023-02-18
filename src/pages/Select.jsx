@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useLayoutEffect, useState } from 'react'
 import background from '../assets/selectBackground.svg'
 import MainLogo from '../components/common/MainLogo'
 import Card from '../components/common/Card'
@@ -6,10 +6,10 @@ import BackSpace from '../components/common/BackSpace'
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 export default function Select() {
-  const root = document.getElementById('root')
-  root.style.background = `url(${background})`
-  root.style.backgroundSize = 'cover'
-  useEffect(() => {
+  useLayoutEffect(() => {
+    const root = document.getElementById('root')
+    root.style.background = `url(${background})`
+    root.style.backgroundSize = 'cover'
     const wrap = document.getElementsByClassName('wrap')[0]
     wrap.animate(
       [
