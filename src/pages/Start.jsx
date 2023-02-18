@@ -1,21 +1,30 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import MainLogo from '../components/common/MainLogo'
 import '../assets/text-style.css'
 import Button from '../components/common/Button'
 import CopiedLink from '../components/common/CopiedLink'
 import Music from '../components/common/Music'
-import background from '../assets/Frame67.svg'
 import { useNavigate } from 'react-router-dom'
 export default function Start() {
-  useEffect(() => {
-    const root = document.getElementById('root')
-    root.style.background = `url(${background})`
-    root.style.backgroundSize = 'cover'
-  }, [])
   const navigate = useNavigate()
   const nextPage = () => {
-    navigate('/select')
+    const wrap = document.getElementsByClassName('wrap')[0]
+    wrap.animate(
+      [
+        {
+          opacity: 1,
+        },
+        {
+          opacity: 0,
+        },
+      ],
+      1000
+    )
+    setTimeout(() => {
+      navigate('/select')
+    }, 1000)
   }
+
   return (
     <div className='w-4/5'>
       <div className='h-1/6 flex items-end justify-end relative left-20'>
@@ -41,7 +50,7 @@ export default function Start() {
         </p>
         <Button
           css={
-            'Btn-Poppins-M-30 bg-white text-black rounded-[48px] w-56 h-20 mt-10 py-5 px-20'
+            'Btn-Poppins-M-30 bg-white text-black rounded-[48px] w-56 h-20 mt-10 py-5 px-20 hover:bg-[#E2E0FF] focus:bg-[#B4B0DE] focus:text-white'
           }
           content={'Start'}
           onClick={nextPage}
