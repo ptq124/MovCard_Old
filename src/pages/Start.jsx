@@ -21,7 +21,7 @@ export default function Start() {
         },
       ],
       {
-        duration: 700,
+        duration: 1000,
         fill: 'forwards',
       }
     )

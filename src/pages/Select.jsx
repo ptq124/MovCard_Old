@@ -24,7 +24,7 @@ export default function Select() {
         },
       ],
       {
-        duration: 700,
+        duration: 1000,
         fill: 'forwards',
       }
     )
@@ -48,7 +48,21 @@ export default function Select() {
   }
   const backQa = () => {
     if (!result.length) {
-      navigate('/')
+      const wrap = document.getElementsByClassName('wrap')[0]
+      wrap.animate(
+        [
+          {
+            opacity: 1,
+          },
+          {
+            opacity: 0,
+          },
+        ],
+        1000
+      )
+      setTimeout(() => {
+        navigate('/')
+      }, 1000)
     } else {
       const stage = result.pop().stage
       qa.map((d) => (d.display = false))
