@@ -4,7 +4,7 @@ import MainLogo from '../components/common/MainLogo'
 import Card from '../components/common/Card'
 import BackSpace from '../components/common/BackSpace'
 import { useNavigate } from 'react-router-dom'
-import bg from '../assets/Frame67.svg'
+//import bg from '../assets/Frame67.svg'
 import axios from 'axios'
 export default function Select() {
   useLayoutEffect(() => {
@@ -15,15 +15,18 @@ export default function Select() {
     wrap.animate(
       [
         {
-          background: `url(${bg})`,
           opacity: 0,
         },
         {
           background: `url(${background})`,
+          backgroundSize: 'cover',
           opacity: 1,
         },
       ],
-      700
+      {
+        duration: 700,
+        fill: 'forwards',
+      }
     )
 
     getQa()
