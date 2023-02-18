@@ -10,6 +10,18 @@ export default function Select() {
     const root = document.getElementById('root')
     root.style.background = `url(${background})`
     root.style.backgroundSize = 'cover'
+    const wrap = document.getElementsByClassName('wrap')[0]
+    wrap.animate(
+      [
+        {
+          opacity: 0,
+        },
+        {
+          opacity: 1,
+        },
+      ],
+      1000
+    )
     getQa()
   }, [])
   const navigate = useNavigate()
