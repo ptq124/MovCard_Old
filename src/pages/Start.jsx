@@ -1,11 +1,31 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import MainLogo from '../components/common/MainLogo'
 import '../assets/text-style.css'
 import Button from '../components/common/Button'
 import CopiedLink from '../components/common/CopiedLink'
 import Music from '../components/common/Music'
 import { useNavigate } from 'react-router-dom'
+import background from '../assets/Frame67.svg'
 export default function Start() {
+  useEffect(() => {
+    const wrap = document.getElementsByClassName('wrap')[0]
+    wrap.animate(
+      [
+        {
+          opacity: 0,
+        },
+        {
+          background: `url(${background})`,
+          backgroundSize: 'cover',
+          opacity: 1,
+        },
+      ],
+      {
+        duration: 700,
+        fill: 'forwards',
+      }
+    )
+  })
   const navigate = useNavigate()
   const nextPage = () => {
     const wrap = document.getElementsByClassName('wrap')[0]
