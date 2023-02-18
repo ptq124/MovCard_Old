@@ -2,20 +2,29 @@ import React from 'react'
 import { ReactComponent as ExCard } from '../../assets/excard.svg'
 import '../../assets/text-style.css'
 export default function Card({ info, changeQa }) {
-  const { title, display, stage } = info
-  const style =
-    'card w-72 h-[25.625rem] flex flex-col justify-evenly hover:-translate-y-8 transition delay-75 duration-300 ease-in-out '
+  const { title, display, stage, qa, id } = info
+  const style = 'card w-72 h-[25.625rem] flex flex-col justify-evenly '
   let css = display ? style : style + 'hidden'
   const handler = () => {
-    const card = document.getElementsByClassName('card')
-    for (let i = 0; i < card.length; i++) {
-      card[i].style.transition = `ease 1s`
-      card[i].style.transform = `translateY(500px)`
-      setTimeout(() => {
-        card[i].style.transform = `translateY(0px)`
-        changeQa(stage, title)
-      }, 900)
-    }
+    document.getElementsByClassName('card')[id].style.background =
+      'linear-gradient(360deg, rgba(254, 254, 254, 0.4) 0%, rgba(204, 224, 255, 0.4) 44.94%, rgba(157, 167, 255, 0.4) 70.1%, rgba(106, 157, 255, 0.4) 97.33%), linear-gradient(337.18deg, rgba(255, 255, 255, 0.7) -16.5%, rgba(255, 255, 255, 0.7) -13.9%, rgba(135, 129, 206, 0.325579) 100.03%, rgba(123, 116, 201, 0.287) 105.56%)'
+    let i = ''
+    if (qa === 'Q1') i = 0
+    if (qa === 'Q2') i = 2
+    if (qa === 'Q3') i = 4
+    if (qa === 'Q4') i = 6
+    const card = document.getElementsByClassName('card')[i]
+    const card2 = document.getElementsByClassName('card')[i + 1]
+    card.style.transition = `ease 1s`
+    card.style.transform = `translateY(500px)`
+    card2.style.transition = `ease 1s`
+    card2.style.transform = `translateY(500px)`
+    setTimeout(() => {
+      card.style.transform = `translateY(0px)`
+      card2.style.transform = `translateY(0px)`
+      document.getElementsByClassName('card')[id].style.background = ''
+      changeQa(stage, title)
+    }, 900)
   }
   return (
     <>
