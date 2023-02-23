@@ -30,6 +30,46 @@
   font-size: 20px;
   line-height: 24px;
 }
+/*관람가 숫자 */
+.Pretendard-B-20 {
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+}
+/*영화 제목 */
+.Pretendard-M-25 {
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+}
+/*영화 연도 시간 장르*/
+.Pretendard-H1-R-17 {
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+}
+/*영화 줄거리*/
+.Pretendard-H1-R-20 {
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 170%;
+}
+/*영화 플랫폼*/
+.Poppins-M-20 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
 .Btn-Poppins-M-30 {
   font-family: 'Poppins';
   font-style: normal;
