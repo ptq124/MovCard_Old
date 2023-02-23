@@ -62,7 +62,6 @@ export default function Result() {
         y: -670 + i,
         rotation: 5 * i,
         ease: 'power1.out',
-        duration: 1,
       })
     })
   })
@@ -90,7 +89,7 @@ export default function Result() {
   ) : (
     <section className='w-4/5 mx-auto'>
       <div className='h-1/6 flex items-end relative'>
-        <Refresh css={'absolute -left-32'} />
+        <Refresh css={'absolute -left-32 hover:bg-backspace'} />
         <MainLogo
           value={{
             width: 123.41,
