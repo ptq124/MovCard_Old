@@ -9,8 +9,8 @@
     "platform": ["웨이브"],
     "image": [
       {
-        "background": "https://drive.google.com/uc?export=download&id=1pA3dMTcaOVh2w4ioCmWj2ynWuN5_PmQd",
-        "poster": "https://drive.google.com/uc?export=download&id=1fYMddy5U3SVgGEoN_J-widzP1SI5Gz4w"
+        "background": "b4_성난군중으로부터멀리.webp",
+        "poster": "4_성난 군중으로부터 멀리.webp"
       }
     ]
   },
@@ -24,8 +24,8 @@
     "platform": ["티빙"],
     "image": [
       {
-        "background": "https://drive.google.com/uc?export=download&id=1eY5vCrQkdmnwPhgNZw_uossFRR_8_DSw",
-        "poster": "https://drive.google.com/uc?export=download&id=1UFi3I8VMeIefTeew-tJ25a6LQSBOhMbe"
+        "background": "b5_헨젤과그레텔.webp",
+        "poster": "5_헨젤과 그레텔.webp"
       }
     ]
   },
@@ -39,8 +39,8 @@
     "platform": ["넷플릭스"],
     "image": [
       {
-        "background": "https://drive.google.com/uc?export=download&id=1XMghBWZZUT-jxoD821wqbhA4934F8_Bw",
-        "poster": "https://drive.google.com/uc?export=download&id=1-f7N9uTtCd2fOrVXM-2FquHQIdf_fqSu"
+        "background": "b6_파워오브도그.webp",
+        "poster": "6_파워오브도그.webp"
       }
     ]
   }
