@@ -46,7 +46,7 @@ export default function Start() {
   }
 
   return (
-    <div className='w-4/5'>
+    <section className='w-4/5'>
       <div className='h-1/6 flex items-end justify-end relative left-20'>
         <Music></Music>
         <CopiedLink></CopiedLink>
@@ -76,6 +76,6 @@ export default function Start() {
           onClick={nextPage}
         ></Button>
       </div>
-    </div>
+    </section>
   )
 }

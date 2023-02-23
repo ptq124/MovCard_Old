@@ -16,15 +16,43 @@ export default function Card({ info, changeQa }) {
     const card = document.getElementsByClassName('card')[i]
     const card2 = document.getElementsByClassName('card')[i + 1]
     card.style.transition = `ease 1s`
-    card.style.transform = `translateY(500px)`
+    card.style.transform = `translateY(600px)`
     card2.style.transition = `ease 1s`
-    card2.style.transform = `translateY(500px)`
+    card2.style.transform = `translateY(600px)`
     setTimeout(() => {
       card.style.transform = `translateY(0px)`
       card2.style.transform = `translateY(0px)`
       document.getElementsByClassName('card')[id].style.background = ''
-      changeQa(stage, title)
-    }, 900)
+      changeQa(stage, title, id)
+    }, 1000)
+    if (i !== 6) {
+      document.getElementsByClassName('card')[i + 2].animate(
+        [
+          {
+            transform: `translateY(600px)`,
+          },
+          {
+            transform: `translateY(0px)`,
+          },
+        ],
+        {
+          duration: 1500,
+        }
+      )
+      document.getElementsByClassName('card')[i + 3].animate(
+        [
+          {
+            transform: `translateY(600px)`,
+          },
+          {
+            transform: `translateY(0px)`,
+          },
+        ],
+        {
+          duration: 1500,
+        }
+      )
+    }
   }
   return (
     <>

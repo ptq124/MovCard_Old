@@ -9,9 +9,6 @@ import axios from 'axios'
 export default function Select() {
   useLayoutEffect(() => {
     const wrap = document.getElementsByClassName('wrap')[0]
-    // const root = document.getElementById('root')
-    // root.style.background = `url(${background})`
-    // root.style.backgroundSize = 'cover'
     wrap.animate(
       [
         {
@@ -28,7 +25,6 @@ export default function Select() {
         fill: 'forwards',
       }
     )
-
     getQa()
   }, [])
   const navigate = useNavigate()
@@ -39,12 +35,16 @@ export default function Select() {
     setQa([...res.data])
   }
 
-  const changeQa = (stage, title) => {
-    result.push({ title, stage })
+  const changeQa = (stage, title, id) => {
+    result.push({ title, stage, id })
     setResult([...result])
     qa.map((d) => (d.display = false))
     qa.map((d) => (d.stage === stage + 1 ? (d.display = true) : d))
     setQa([...qa])
+    if (result.length > 3) {
+      const key = result.map((d) => d.id).join('')
+      navigate(`/result/${key}`)
+    }
   }
   const backQa = () => {
     if (!result.length) {
@@ -71,7 +71,7 @@ export default function Select() {
     }
   }
   return (
-    <div className='w-4/5 flex flex-col static'>
+    <section className='w-4/5 flex flex-col static'>
       <BackSpace backQa={backQa} />
       <MainLogo
         value={{
@@ -88,6 +88,6 @@ export default function Select() {
           <Card key={index} info={info} changeQa={changeQa} />
         ))}
       </div>
-    </div>
+    </section>
   )
 }
