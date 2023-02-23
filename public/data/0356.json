@@ -9,8 +9,8 @@
     "platform": ["넷플릭스", "유튜브"],
     "image": [
       {
-        "background": "https://drive.google.com/uc?export=download&id=10FAFkBIR6WcsrdGfGnuWGgCWsQlWnrtI",
-        "poster": "https://drive.google.com/uc?export=download&id=1OM76Vix7LmakpNfl2ocWc4YfHNSQrQKB"
+        "background": "b1_스윗프랑세즈.webp",
+        "poster": "1_스윗프랑세즈.webp"
       }
     ]
   },
@@ -24,8 +24,8 @@
     "platform": ["넷플릭스"],
     "image": [
       {
-        "background": "https://drive.google.com/uc?export=download&id=1biZD5Cq38m01ENfoY5yYaSw7ziLog23o",
-        "poster": "https://drive.google.com/uc?export=download&id=1OEXpR0-UNCgkW2Ebnl54L_KME7_HyQm4"
+        "background": "b2_로마.webp",
+        "poster": "2_로마.webp"
       }
     ]
   },
@@ -39,8 +39,8 @@
     "platform": ["넷플릭스", "티빙"],
     "image": [
       {
-        "background": "https://drive.google.com/uc?export=download&id=1HLcjc2fVeRieulLkTON6fokZk2F9g4xH",
-        "poster": "https://drive.google.com/uc?export=download&id=1ae7n49GFHUj8Af1Su0CIV-gke83CUXOM"
+        "background": "b3_킬유어달링.webp",
+        "poster": "3_킬유어 달링.webp"
       }
     ]
   }
