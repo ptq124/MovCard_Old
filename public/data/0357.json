@@ -1,7 +1,7 @@
 [
   {
     "title": "성난 군중으로부터 멀리",
-    "movie_rate": "15+",
+    "movie_rate": "15",
     "runnig_time": "1시간 59분",
     "open_date": "2015",
     "movie_genre": "로맨스 / 드라마",
@@ -16,7 +16,7 @@
   },
   {
     "title": "헨젤과 그레텔",
-    "movie_rate": "12+",
+    "movie_rate": "12",
     "runnig_time": "1시간 53분",
     "open_date": "2007",
     "movie_genre": "판타지",
@@ -31,7 +31,7 @@
   },
   {
     "title": "파워오브도그",
-    "movie_rate": "15+",
+    "movie_rate": "15",
     "runnig_time": "2시간 8분",
     "open_date": "2021",
     "movie_genre": "서부 도서원작",

@@ -1,7 +1,7 @@
 [
   {
     "title": "스윗 프랑세즈",
-    "movie_rate": "15+",
+    "movie_rate": "15",
     "runnig_time": "107분",
     "open_date": "2014",
     "movie_genre": "로맨스",
@@ -16,7 +16,7 @@
   },
   {
     "title": "로마",
-    "movie_rate": "15+",
+    "movie_rate": "15",
     "runnig_time": "2시간 14분",
     "open_date": "2012",
     "movie_genre": "사회 이슈",
@@ -31,7 +31,7 @@
   },
   {
     "title": "킬유어 달링",
-    "movie_rate": "15+",
+    "movie_rate": "15",
     "runnig_time": "1시간 14분",
     "open_date": "2013",
     "movie_genre": "로맨스 / 드라마",
