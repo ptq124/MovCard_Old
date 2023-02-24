@@ -51,11 +51,11 @@ export default function Start() {
         <Music></Music>
         <CopiedLink></CopiedLink>
       </div>
-      <div className='h-4/6 flex flex-col items-center justify-center relative'>
-        <div className='absolute top-[60px] right-[350px] bg-white w-5 h-5 rounded-full animate-[twinkle_12s_infinite]'></div>
-        <div className='absolute top-[200px] right-[250px] bg-white w-5 h-5 rounded-full animate-[twinkle3_11s_infinite]'></div>
-        <div className='absolute bottom-[200px] left-[300px] bg-white w-5 h-5 rounded-full animate-[twinkle_12s_infinite]'></div>
-        <div className='absolute bottom-[250px] left-[250px] bg-white w-5 h-5 rounded-full animate-[twinkle3_11s_infinite]'></div>
+      <div className='h-4/6 w-4/5 mx-auto flex flex-col items-center justify-center relative'>
+        <div className='absolute top-[60px] right-[100px] bg-white w-5 h-5 rounded-full animate-[twinkle_12s_infinite]'></div>
+        <div className='absolute top-[200px] right-[50px] bg-white w-5 h-5 rounded-full animate-[twinkle3_11s_infinite]'></div>
+        <div className='absolute bottom-[180px] left-[130px] bg-white w-5 h-5 rounded-full animate-[twinkle_12s_infinite]'></div>
+        <div className='absolute bottom-[220px] left-[100px] bg-white w-5 h-5 rounded-full animate-[twinkle3_11s_infinite]'></div>
         <MainLogo
           value={{
             width: 342,

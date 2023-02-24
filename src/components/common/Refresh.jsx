@@ -7,7 +7,7 @@ export default function Refresh({ css }) {
   return (
     <button className={style + css}>
       <RefreshIcon />
-      ReStart
+      Restart
     </button>
   )
 }

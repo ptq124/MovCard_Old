@@ -89,7 +89,7 @@ export default function Result() {
   ) : (
     <section className='w-4/5 mx-auto'>
       <div className='h-1/6 flex items-end relative'>
-        <Refresh css={' hover:bg-backspace absolute -left-32'} />
+        <Refresh css={' hover:bg-backspace absolute -left-32 '} />
         <MainLogo
           value={{
             width: 123.41,
@@ -115,7 +115,7 @@ export default function Result() {
                 <div className='w-2/4 h-[34rem] absolute top-32 right-12 flex flex-col justify-between'>
                   <div className='p-5'>
                     <div className='p-3'>
-                      <span className='Pretendard-B-20 bg-[#595A64] h-[2.1rem] w-[2.1rem] inline-block p-2 rounded-[46px]'>
+                      <span className='Pretendard-B-20 bg-[#595A64] h-[2.1rem] w-[2.1rem] inline-block p-2 rounded-[46px] text-center'>
                         {items.movie_rate}
                       </span>
                     </div>
@@ -133,7 +133,7 @@ export default function Result() {
                         {items.open_date}
                       </span>
                     </div>
-                    <div className='p-3'>{items.plot}</div>
+                    <div className='p-3 Pretendard-H1-R-16'>{items.plot}</div>
                   </div>
                   <div className='p-5'>
                     <div className='p-3 flex items-center'>
