@@ -115,7 +115,7 @@ export default function Result() {
                 <div className='w-2/4 h-[34rem] absolute top-32 right-12 flex flex-col justify-between'>
                   <div className='p-5'>
                     <div className='p-3'>
-                      <span className='Pretendard-B-20 bg-[#595A64] h-[2.1rem] w-[2.1rem] inline-block p-2 rounded-[46px] text-center'>
+                      <span className='Pretendard-B-20 bg-[#595A64] h-[2.1rem] w-[2.1rem] p-2 rounded-full text-center whitespace-nowrap'>
                         {items.movie_rate}
                       </span>
                     </div>
@@ -148,7 +148,7 @@ export default function Result() {
                           {item === '유튜브' && <Youtube />}
                           {item === '웨이브' && <Wavve />}
                           {item === '티빙' && <Tving />}
-                          {item === '디즈니 플러스' && <Disneyplus />}
+                          {item === '디즈니플러스' && <Disneyplus />}
                         </div>
                       ))}
                     </div>
