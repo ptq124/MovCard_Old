@@ -1,8 +1,9 @@
 import React from 'react'
-import { ReactComponent as ExCard } from '../../assets/excard.svg'
+//import { ReactComponent as ExCard } from '../../assets/excard.svg'
 import '../../assets/text-style.css'
+// import '../../../'
 export default function Card({ info, changeQa }) {
-  const { title, display, stage, qa, id } = info
+  const { title, display, stage, qa, id, img } = info
   const style = 'card w-72 h-[25.625rem] flex flex-col justify-evenly '
   let css = display ? style : style + 'hidden'
   const handler = () => {
@@ -57,7 +58,8 @@ export default function Card({ info, changeQa }) {
   return (
     <>
       <div className={css} onClick={handler}>
-        <ExCard className='mx-auto mb-10'></ExCard>
+        {/* <ExCard className='mx-auto mb-10'></ExCard> */}
+        <img className='' src={`img/gif/${img}`} alt={title} />
         <p className='Pretendard-M-23 text-center p-2.5 mb-10 '>{title}</p>
       </div>
     </>
