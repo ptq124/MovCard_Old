@@ -23,8 +23,6 @@ body {
   overflow: hidden;
 }
 .card {
-  border: 1px solid;
-
   border-image-source: linear-gradient(
     155.93deg,
     rgba(181, 94, 195, 0.96) 0.77%,
