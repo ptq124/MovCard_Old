@@ -36,7 +36,8 @@
     "stage": 2,
     "id": 4,
     "display": false,
-    "qa": "Q3"
+    "qa": "Q3",
+    "img": "개인.gif"
   },
   {
     "title": "다수",
@@ -44,7 +45,7 @@
     "id": 5,
     "display": false,
     "qa": "Q3",
-    "img": "icecream.gif"
+    "img": "집단.gif"
   },
   {
     "title": "잔잔",
@@ -52,7 +53,7 @@
     "id": 6,
     "display": false,
     "qa": "Q4",
-    "img": "icecream.gif"
+    "img": "잔잔.gif"
   },
   {
     "title": "빠른",
@@ -60,6 +61,6 @@
     "id": 7,
     "display": false,
     "qa": "Q4",
-    "img": "icecream.gif"
+    "img": "빠른.gif"
   }
 ]
