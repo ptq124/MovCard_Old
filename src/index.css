@@ -21,7 +21,7 @@ body {
   color: #ffffff;
   background-size: cover;
   overflow: hidden;
-  cursor: url('/public/cursor.svg') 2 2, default;
+  cursor: url('/public/cursor.svg') 16 0, default;
 }
 button {
   cursor: url('/public/cursorp.svg') 2 2, pointer;
