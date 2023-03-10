@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import CopiedLink from '../components/common/CopiedLink'
-import Music from '../components/common/Music'
 import Refresh from '../components/common/Refresh'
 import MainLogo from '../components/common/MainLogo'
-import LodingGif from '../components/LodingGif'
 import LiveTv from '../components/common/LiveTv'
 import Netflix from '../components/common/Netflix'
 import Watcha from '../components/common/Watcha'
@@ -19,7 +17,6 @@ import ArrowDown from '../components/common/ArrowDown'
 
 export default function Result() {
   const { key } = useParams()
-  const [loading, setLoading] = useState(true)
   const [data, setData] = useState([])
   const [background, setBg] = useState([])
   const [count, setCount] = useState(0)
@@ -29,9 +26,6 @@ export default function Result() {
       setData([...res.data])
       setBg([...res.data.map((d) => d.image[0].background)])
     })()
-    setTimeout(() => {
-      setLoading(false)
-    }, 2000)
   }, [key])
 
   useEffect(() => {
@@ -84,9 +78,7 @@ export default function Result() {
     setData([...data])
   }
 
-  return loading ? (
-    <LodingGif />
-  ) : (
+  return (
     <section className='w-4/5 mx-auto'>
       <div className='h-1/6 flex items-end relative'>
         <Refresh css={' hover:bg-backspace absolute -left-32 '} />
@@ -98,7 +90,6 @@ export default function Result() {
           css={'mx-auto mb-3'}
         ></MainLogo>
         <div className='flex items-end justify-end absolute -right-24'>
-          <Music></Music>
           <CopiedLink></CopiedLink>
         </div>
       </div>

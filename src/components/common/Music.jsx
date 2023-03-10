@@ -3,8 +3,8 @@ import MusicOff from './MusicOff'
 import MusicOn from './MusicOn'
 export default function Music() {
   const [isMusic, toggleMusic] = useState(false)
-  const MusicCss = 'mr-7 relative bottom-1'
-  const size = { width: 48, height: 48 }
+  const MusicCss = 'absolute right-[4rem] bottom-[2rem]'
+  const size = { width: 32, height: 32 }
   return (
     <button
       onClick={() => {

@@ -3,7 +3,6 @@ import MainLogo from '../components/common/MainLogo'
 import '../assets/text-style.css'
 import Button from '../components/common/Button'
 import CopiedLink from '../components/common/CopiedLink'
-import Music from '../components/common/Music'
 import { useNavigate } from 'react-router-dom'
 import background from '../assets/Frame67.svg'
 export default function Start() {
@@ -48,7 +47,6 @@ export default function Start() {
   return (
     <section className='w-4/5'>
       <div className='h-1/6 flex items-end justify-end relative left-20'>
-        <Music></Music>
         <CopiedLink></CopiedLink>
       </div>
       <div className='h-4/6 w-4/5 mx-auto flex flex-col items-center justify-center relative'>
