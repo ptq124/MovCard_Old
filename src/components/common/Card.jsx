@@ -65,7 +65,7 @@ export default function Card({ info, changeQa }) {
           src={`img/gif/${img}`}
           alt={title}
         />
-        <p className='Pretendard-M-23 text-center p-2.5 mb-10 w-60 h-[4.5rem]'>
+        <p className='Pretendard-M-23 text-center p-2.5 mb-10 w-60 h-[4.5rem] whitespace-pre-wrap'>
           {text}
         </p>
       </div>
