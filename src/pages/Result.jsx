@@ -57,7 +57,7 @@ export default function Result() {
         {
           x: i * 30,
           y: i * 10,
-          rotation: i * 10,
+          rotation: i * 5,
           ease: 'power1.out',
           duration: 1,
         }
