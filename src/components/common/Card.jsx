@@ -3,8 +3,9 @@ import React from 'react'
 import '../../assets/text-style.css'
 // import '../../../'
 export default function Card({ info, changeQa }) {
-  const { title, display, stage, qa, id, img } = info
-  const style = 'card w-72 h-[25.625rem] flex flex-col justify-evenly '
+  const { title, display, stage, qa, id, img, text } = info
+  const style =
+    'card w-72 h-[25.625rem] flex flex-col justify-evenly items-center '
   let css = display ? style : style + 'hidden'
   const handler = () => {
     document.getElementsByClassName('card')[id].style.background =
@@ -59,8 +60,12 @@ export default function Card({ info, changeQa }) {
     <>
       <div className={css} onClick={handler}>
         {/* <ExCard className='mx-auto mb-10'></ExCard> */}
-        <img className='' src={`img/gif/${img}`} alt={title} />
-        <p className='Pretendard-M-23 text-center p-2.5 mb-10 '>{title}</p>
+        <img
+          className='w-[12.5rem] h-[12.5rem]'
+          src={`img/gif/${img}`}
+          alt={title}
+        />
+        <p className='Pretendard-M-23 text-center p-2.5 mb-10 '>{text}</p>
       </div>
     </>
   )
