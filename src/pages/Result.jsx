@@ -51,12 +51,17 @@ export default function Result() {
     let mcard = document.querySelectorAll('.mcard')
     mcard.forEach((item, i) => {
       item.style.zIndex = mcard.length - i
-      gsap.to(item, {
-        x: i * 22,
-        y: 0 + i,
-        rotation: 5 * i,
-        ease: 'power1.out',
-      })
+      gsap.fromTo(
+        item,
+        { x: -30, y: 0, rotation: 0 },
+        {
+          x: i * 30,
+          y: i * 10,
+          rotation: i * 10,
+          ease: 'power1.out',
+          duration: 1,
+        }
+      )
     })
   })
   const go = () => {
