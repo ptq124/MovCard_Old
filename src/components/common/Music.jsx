@@ -13,7 +13,7 @@ export default function Music() {
     >
       {isMusic && <MusicOn value={size} css={MusicCss}></MusicOn>}
       {!isMusic && <MusicOff value={size} css={MusicCss}></MusicOff>}
-      {isMusic && <audio src='/배경음악.wav' autoPlay={true}></audio>}
+      {isMusic && <audio src='/배경음악.mp3' autoPlay={true} loop></audio>}
     </button>
   )
 }
