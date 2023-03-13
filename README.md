@@ -1,7 +1,5 @@
 # Mov. Card
 
-![썸네일](https://user-images.githubusercontent.com/64758823/224612683-c1f721b0-38a7-4166-919d-5c9a9f6a2b45.jpg)
-
 ## 프로젝트 소개
 서치 없이, 오늘의 인디영화 큐레이팅 서비스 Mov(ie). card
 
