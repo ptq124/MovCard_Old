@@ -5,7 +5,7 @@ export default function CopiedLink() {
   const [isCopied, toggleCopied] = useState(false)
   const [flag, setFlag] = useState(1)
   const handleChange = () => {
-    navigator.clipboard.writeText('링크 준비중')
+    navigator.clipboard.writeText('https://movcard.swygbro.com/')
     setFlag(flag - 1)
     if (flag > 0) {
       toggleCopied(!isCopied)
