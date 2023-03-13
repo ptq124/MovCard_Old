@@ -1,6 +1,6 @@
 # Mov. Card
 
-[링크](https://cool-licorice-b34c22.netlify.app/)
+[링크](https://movcard.swygbro.com//)
 
 ## 프로젝트 소개
 서치 없이, 오늘의 인디영화 큐레이팅 서비스 Mov(ie). card
