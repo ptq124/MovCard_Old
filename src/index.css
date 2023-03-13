@@ -24,7 +24,7 @@ body {
   cursor: url('/public/cursor.svg') 16 0, default;
 }
 button {
-  cursor: url('/public/cursorp.svg') 2 2, pointer;
+  cursor: url('/public/cursorp.svg') 16 0, pointer;
 }
 .card {
   border-image-source: linear-gradient(
@@ -63,7 +63,7 @@ button {
 
   transition: 0.5s;
 
-  cursor: url('/public/cursorp.svg') 2 2, pointer;
+  cursor: url('/public/cursorp.svg') 16 0, pointer;
 }
 .card:hover {
   transform: translateY(-25px);
