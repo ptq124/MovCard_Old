@@ -1,5 +1,7 @@
 # Mov. Card
 
+[링크](https://cool-licorice-b34c22.netlify.app/)
+
 ## 프로젝트 소개
 서치 없이, 오늘의 인디영화 큐레이팅 서비스 Mov(ie). card
 - 남들 다 보는 흔한 영화 말고, 오늘은 조금 독특한 영화를 보고 싶을 때.
